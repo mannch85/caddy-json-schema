@@ -142,6 +142,10 @@ func (f *Interface) populate(s interface{}) {
 	default:
 		f.populateStruct(v.Type())
 	}
+    
+        if s == nil {
+        f.Type = "string"
+        return
 
 }
 
