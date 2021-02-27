@@ -1,4 +1,4 @@
-module github.com/abiosoft/caddy-json-schema
+module github.com/mannch85/caddy-json-schema
 
 go 1.14
 
